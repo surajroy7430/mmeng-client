@@ -11,7 +11,7 @@ const FileItem = ({ file, index, onDelete }) => {
             </td>
             <td>
                 {file.filename.replace(/\.[^/.]+$/, "")}
-                <span className="text-secondry"> ({fileSize} MB)</span>
+                <span className="text-secondary"> ({fileSize} MB)</span>
             </td>
             <td className="text-center">
                 {file.coverImageUrl ? (
